@@ -1,5 +1,4 @@
 package cn.edu.xmu.goods.model.vo;
-
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
