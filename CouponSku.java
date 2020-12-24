@@ -1,5 +1,4 @@
 package cn.edu.xmu.goods.model.bo;
-
 import lombok.Data;
 import cn.edu.xmu.goods.model.vo.CouponSkuVo;
 
