@@ -14,6 +14,5 @@ public class GrouponActivityShopVo {
 
     private Long id;
     private String name;
-
     public GrouponActivityShopVo(){}
 }
