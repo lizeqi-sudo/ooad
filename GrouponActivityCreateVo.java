@@ -21,7 +21,6 @@ public class GrouponActivityCreateVo {
     private String strategy;
     private String beginTime;
     private String endTime;
-
     public GrouponActivityCreateVo(GrouponActivityPo po1, GoodsSpuPo po2, ShopPo po3)
     {
         this.id=po1.getId();
