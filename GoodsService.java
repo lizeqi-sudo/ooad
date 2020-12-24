@@ -30,7 +30,6 @@ public class GoodsService {
         ReturnObject<PageInfo<VoObject>> returnObject = goodsDao.getSku(shopId,skuSn,spuId,spuSn, pageNum, pageSize);
         return returnObject;
     }
-
     public ReturnObject  getOneSku(Long Id)
     {
         return goodsDao.getOneSku(Id);
