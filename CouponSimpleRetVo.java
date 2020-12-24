@@ -14,7 +14,6 @@ import java.time.LocalDateTime;
 public class CouponSimpleRetVo implements Serializable {
    private String couponSn;
 
-
     public CouponSimpleRetVo(Coupon po) {
         this.couponSn = po.getCouponSn();
     }
