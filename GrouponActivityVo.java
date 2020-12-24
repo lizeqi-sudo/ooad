@@ -14,7 +14,6 @@ import lombok.Data;
 @Data
 @ApiModel("团购活动传值对象")
 public class GrouponActivityVo {
-
     @ApiModelProperty(name = "团购策略", value = "strategy", required = true)
     private String strategy;
 
