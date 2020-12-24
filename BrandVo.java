@@ -1,4 +1,4 @@
-package cn.edu.xmu.flashsale.model.vo;
+package cn.edu.xmu.goods.model.vo;
 
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
@@ -23,4 +23,6 @@ public class BrandVo {
 
     @ApiModelProperty(name = "品牌id", value = "id", required = true)
     private Long id;
+
+    private String imageUrl;
 }
