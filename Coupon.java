@@ -28,7 +28,6 @@ public class Coupon implements VoObject{
     private LocalDateTime endTime;
     private LocalDateTime gmtCreated;
     private LocalDateTime gmtModified;
-
     public enum State {
         UNAVAILABLE((byte)0, "未领取"),
         AVAILABLE((byte)1, "已领取"),
