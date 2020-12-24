@@ -19,6 +19,5 @@ public class GrouponActivitySpuVo {
     private String gmtCreate;
     private String gmtModified;
     private Byte disable;
-
     public GrouponActivitySpuVo(){}
 }
