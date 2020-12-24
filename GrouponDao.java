@@ -1,5 +1,4 @@
 package cn.edu.xmu.goods.dao;
-
 import cn.edu.xmu.goods.mapper.*;
 import cn.edu.xmu.goods.model.bo.*;
 import cn.edu.xmu.goods.model.po.*;
