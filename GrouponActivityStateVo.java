@@ -10,7 +10,6 @@ import lombok.Data;
  */
 @Data
 public class GrouponActivityStateVo {
-
     private Long Code;
 
     private String name;
