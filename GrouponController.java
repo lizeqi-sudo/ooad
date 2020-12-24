@@ -26,7 +26,6 @@ import java.util.List;
 import java.util.ArrayList;
 import java.util.Objects;
 
-
 /**
  * 团购模块控制器
  *
