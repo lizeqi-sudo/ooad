@@ -1,5 +1,4 @@
 package cn.edu.xmu.goods.model.vo;
-
 import cn.edu.xmu.goods.model.bo.CouponActivity;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
