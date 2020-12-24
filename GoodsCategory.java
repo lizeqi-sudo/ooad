@@ -20,7 +20,6 @@ public class GoodsCategory {
     private Long pid;
     private LocalDateTime gmtCreated;
     private LocalDateTime gmtModified;
-
     public GoodsCategory(GoodsCategoryVo vo)
     {
         this.name=vo.getName();
