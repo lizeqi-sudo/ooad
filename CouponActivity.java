@@ -10,7 +10,6 @@ import cn.edu.xmu.ooad.util.encript.AES;
 import cn.edu.xmu.ooad.util.encript.SHA256;
 import lombok.Data;
 import cn.edu.xmu.goods.model.vo.CouponActivityVo;
-
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.HashMap;
