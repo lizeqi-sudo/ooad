@@ -32,7 +32,6 @@ public class GrouponActivity implements VoObject{
         OFFLINE((byte)0, "已下线"),
         ONLINE((byte)1, "已上线"),
         DELETE((byte)2, "已删除");
-
         private Byte code;
         private String description;
 
