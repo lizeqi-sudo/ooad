@@ -1,9 +1,15 @@
-package cn.edu.xmu.flashsale.model.vo;
+package cn.edu.xmu.goods.model.vo;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
-import cn.edu.xmu.flashsale.model.po.GoodsCategoryPo;
+import cn.edu.xmu.goods.model.bo.GrouponActivity;
+import cn.edu.xmu.goods.model.po.GoodsCategoryPo;
+import cn.edu.xmu.goods.model.po.GoodsSpuPo;
+import cn.edu.xmu.goods.model.po.GrouponActivityPo;
+import cn.edu.xmu.goods.model.po.ShopPo;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 
 @Data
