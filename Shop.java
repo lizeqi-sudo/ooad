@@ -1,11 +1,11 @@
-package cn.edu.xmu.flashsale.model.bo;
+package cn.edu.xmu.goods.model.bo;
 
 import cn.edu.xmu.ooad.model.VoObject;
 import cn.edu.xmu.ooad.util.Common;
 import cn.edu.xmu.ooad.util.encript.AES;
 import cn.edu.xmu.ooad.util.encript.SHA256;
 import lombok.Data;
-import cn.edu.xmu.flashsale.model.vo.ShopVo;
+import cn.edu.xmu.goods.model.vo.ShopVo;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
