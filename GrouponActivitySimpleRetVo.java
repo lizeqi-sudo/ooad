@@ -15,7 +15,6 @@ public class GrouponActivitySimpleRetVo {
     @ApiModelProperty(value = "团购活动名称")
     private String name;
 
-
     public GrouponActivitySimpleRetVo(GrouponActivity grouponActivity) {
         this.id = grouponActivity.getId();
         this.name = grouponActivity.getName();
