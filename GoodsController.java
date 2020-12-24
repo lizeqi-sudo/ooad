@@ -1,4 +1,5 @@
 package cn.edu.xmu.goods.controller;
+
 import cn.edu.xmu.goods.model.bo.*;
 import cn.edu.xmu.goods.model.vo.*;
 import cn.edu.xmu.ooad.annotation.*;
