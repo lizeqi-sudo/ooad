@@ -1,5 +1,4 @@
 package cn.edu.xmu.goods.service;
-
 import cn.edu.xmu.goods.model.bo.CouponSku;
 import cn.edu.xmu.ooad.model.VoObject;
 import com.github.pagehelper.PageInfo;
