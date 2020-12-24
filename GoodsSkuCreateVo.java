@@ -1,6 +1,6 @@
-package cn.edu.xmu.flashsale.model.vo;
+package cn.edu.xmu.goods.model.vo;
 
-import cn.edu.xmu.flashsale.model.po.GoodsSkuPo;
+import cn.edu.xmu.goods.model.po.GoodsSkuPo;
 import lombok.Data;
 
 import java.time.LocalDateTime;

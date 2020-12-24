@@ -1,6 +1,7 @@
-package cn.edu.xmu.flashsale.model.vo;
+package cn.edu.xmu.goods.model.vo;
 
-import cn.edu.xmu.flashsale.model.bo.GoodsSku;
+import cn.edu.xmu.goods.model.bo.Coupon;
+import cn.edu.xmu.goods.model.bo.GoodsSku;
 import lombok.Data;
 
 /**

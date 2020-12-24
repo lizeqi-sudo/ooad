@@ -1,7 +1,7 @@
-package cn.edu.xmu.flashsale.model.vo;
+package cn.edu.xmu.goods.model.vo;
 
-import cn.edu.xmu.flashsale.model.bo.GoodsSpu;
-import cn.edu.xmu.flashsale.model.po.GoodsSpuPo;
+import cn.edu.xmu.goods.model.bo.GoodsSpu;
+import cn.edu.xmu.goods.model.po.GoodsSpuPo;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;

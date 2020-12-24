@@ -1,14 +1,22 @@
-package cn.edu.xmu.flashsale.model.bo;
+package cn.edu.xmu.goods.model.bo;
 
 
-import cn.edu.xmu.flashsale.model.po.GoodsSpuPo;
+import cn.edu.xmu.goods.model.po.GoodsSpuPo;
+import cn.edu.xmu.goods.model.vo.CouponActivityRetVo;
+import cn.edu.xmu.goods.model.vo.CouponActivitySimpleRetVo;
 import cn.edu.xmu.ooad.model.VoObject;
+import cn.edu.xmu.ooad.util.Common;
+import cn.edu.xmu.ooad.util.encript.AES;
+import cn.edu.xmu.ooad.util.encript.SHA256;
 import lombok.Data;
-import cn.edu.xmu.flashsale.model.vo.GoodsSpuVo;
-import cn.edu.xmu.flashsale.model.vo.GoodsSpuRetVo;
-import cn.edu.xmu.flashsale.model.vo.GoodsSpuSimpleRetVo;
+import cn.edu.xmu.goods.model.vo.GoodsSpuVo;
+import cn.edu.xmu.goods.model.vo.GoodsSpuRetVo;
+import cn.edu.xmu.goods.model.vo.GoodsSpuSimpleRetVo;
 
 import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+import java.util.HashMap;
+import java.util.Map;
 
 @Data
 public class GoodsSpu implements VoObject{

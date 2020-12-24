@@ -1,10 +1,9 @@
-package cn.edu.xmu.flashsale.model.bo;
+package cn.edu.xmu.goods.model.bo;
 
 import java.time.LocalDateTime;
 
-import cn.edu.xmu.flashsale.model.vo.GoodsSkuVo;
-import cn.edu.xmu.flashsale.model.po.GoodsSkuPo;
-import cn.edu.xmu.flashsale.model.vo.*;
+import cn.edu.xmu.goods.model.po.GoodsSkuPo;
+import cn.edu.xmu.goods.model.vo.*;
 import cn.edu.xmu.ooad.model.VoObject;
 import cn.edu.xmu.ooad.util.Common;
 import cn.edu.xmu.ooad.util.encript.AES;
@@ -24,6 +23,7 @@ public class GoodsSku implements VoObject{
     private String skuSn;
     private String name;
     private Long originalPrice;
+    private Long price;
     private String configuration;
     private Long weight;
     private String imageUrl;

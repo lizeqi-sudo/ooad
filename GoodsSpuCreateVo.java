@@ -1,11 +1,8 @@
-package cn.edu.xmu.flashsale.model.vo;
+package cn.edu.xmu.goods.model.vo;
 
-import cn.edu.xmu.flashsale.model.bo.GoodsSku;
-import cn.edu.xmu.flashsale.model.bo.GoodsSpu;
-import cn.edu.xmu.flashsale.model.po.GoodsSkuPo;
-import cn.edu.xmu.flashsale.model.po.GoodsSpuPo;
-import cn.edu.xmu.flashsale.model.po.GrouponActivityPo;
-import cn.edu.xmu.flashsale.model.po.ShopPo;
+import cn.edu.xmu.goods.model.bo.GoodsSku;
+import cn.edu.xmu.goods.model.bo.GoodsSpu;
+import cn.edu.xmu.goods.model.po.*;
 import cn.edu.xmu.ooad.goods.require.model.FreightModelSimple;
 import lombok.Data;
 
@@ -29,44 +26,24 @@ public class GoodsSpuCreateVo {
     private FreightModelSimple freightModelSimple;
 
 
-    public GoodsSpuCreateVo(GoodsSpuPo po2)
+    public GoodsSpuCreateVo (GoodsSpuPo po, BrandPo po1, GoodsCategoryPo po2, List<GoodsSkuRetVo> goodsSkuRetVos)
     {
-        this.id=po2.getId();
-        this.name=po2.getName();
-        this.category=new GoodsCategoryVo();
-        this.category.setName("string");
-        this.category.setId(0L);
-        this.brand=new BrandVo();
-        this.brand.setName("string");
-        this.brand.setId(0L);
-        this.shop=new ShopVo();
-        this.shop.setName("string");
-        this.shop.setId(0L);
-        this.goodsSn="String";
-        this.detail="String";
-        this.imageUrl="String";
-        this.spec=po2.getSpec();
-        this.disable=false;
+        this.id = po.getId();
+        this.category = new GoodsCategoryVo();
+        this.category.setId(po.getCategoryId());
+        this.category.setName(po.getName());
+        this.brand = new BrandVo();
+        this.brand.setId(po.getBrandId());
     }
-    public GoodsSpuCreateVo(GoodsSpu bo2,FreightModelSimple freightModelSimple)
+
+    public GoodsSpuCreateVo (GoodsSpuPo po)
     {
-        this.id=bo2.getId();
-        this.name=bo2.getName();
-        this.category=new GoodsCategoryVo();
-        this.category.setName("string");
-        this.category.setId(0L);
-        this.brand=new BrandVo();
-        this.brand.setName("string");
-        this.brand.setId(0L);
-        this.shop=new ShopVo();
-        this.shop.setName("string");
-        this.shop.setId(0L);
-        this.goodsSn="String";
-        this.detail="String";
-        this.imageUrl="String";
-        this.spec=bo2.getSpec();
-        this.disable=false;
-        this.freightModelSimple = freightModelSimple;
+        this.id = po.getId();
+        this.category = new GoodsCategoryVo();
+        this.category.setId(po.getCategoryId());
+        this.category.setName(po.getName());
+        this.brand = new BrandVo();
+        this.brand.setId(po.getBrandId());
     }
 
 }
